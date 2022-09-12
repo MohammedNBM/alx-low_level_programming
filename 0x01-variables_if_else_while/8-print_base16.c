@@ -6,7 +6,7 @@
  *
  * Return: always (0) success
  */
-nt main(void)
+int main(void)
 {
 	char low;
 	int d;
