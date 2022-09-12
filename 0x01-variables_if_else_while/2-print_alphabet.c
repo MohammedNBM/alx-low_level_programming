@@ -8,8 +8,8 @@
  */
 int main(void)
 {
-	int low;
-	for (low = 97 ; low <= 122 ; low++)
+	char low
+	for (low = 'a'; low <= 'z'; low++)
 		putchar(low);
 		putchar('\n');
 		return (0);
