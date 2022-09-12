@@ -4,7 +4,7 @@
 /**
  * main - entery point
  *
- * Retunr: always (0) sucess
+ * Return: always (0) sucess
  */
 int main(void)
 {
