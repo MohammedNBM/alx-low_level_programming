@@ -3,7 +3,6 @@
 #include<time.h>
 
 /**
- *
  * main - entery point
  *
  * Return: always (0) sucess
@@ -11,8 +10,8 @@
 int main(void)
 {
 	char low, e, q;
-	e='e';
-	q='q';
+	e = 'e';
+	q = 'q';
 	for (low = 'a'; low <= 'z'; low++)
 	{
 		if (low != q && low != e)
@@ -20,3 +19,4 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
+}
