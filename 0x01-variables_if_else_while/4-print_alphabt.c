@@ -3,17 +3,20 @@
 #include<time.h>
 
 /**
+ *
  * main - entery point
  *
- * Return: always (0)sucess
+ * Return: always (0) sucess
  */
 int main(void)
 {
-	char low;
+	char low, e, q;
+	e='e';
+	q='q';
 	for (low = 'a'; low <= 'z'; low++)
-		putchar(low);
-	for (low = 'A'; low <= 'Z'; low++)
-		putchar(low);
+	{
+		if (low != q && low != e)
+			putchar(low);
+	}
 	putchar('\n');
 	return (0);
-}
